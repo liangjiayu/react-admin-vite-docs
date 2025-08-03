@@ -1,0 +1,25 @@
+{
+  "name": "react-admin-vite-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangjiayu/react-admin-vite-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangjiayu/react-admin-vite-docs/issues"
+  },
+  "homepage": "https://github.com/liangjiayu/react-admin-vite-docs#readme",
+  "description": "",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
