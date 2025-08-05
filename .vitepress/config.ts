@@ -3,16 +3,24 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "React Admin Vite",
-  description: "React Admin Vite docs",
+  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
+  lang: "zh-CN",
+
   locales: {
+    // root: { label: "简体中文", lang: "zh-CN", link: "/zh/" },
     zh: { label: "简体中文", lang: "zh-CN", link: "/zh/" },
   },
   themeConfig: {
     logo: "/logo.svg",
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "指南", link: "/zh/guide/introduction" },
-      { text: "参考", link: "/zh/reference/site-config" },
+      {
+        text: "演示",
+        items: [
+          { text: "基础版本", link: "http://8.134.97.57:7400/" },
+          { text: "演示版本", link: "https://react-admin-vite-mtrzw6h4z-liangjiayus-projects.vercel.app/" },
+        ],
+      },
     ],
 
     sidebar: {
@@ -57,7 +65,10 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      {
+        icon: "github",
+        link: "https://github.com/liangjiayu/react-admin-vite",
+      },
     ],
 
     search: {
