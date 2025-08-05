@@ -2,12 +2,16 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "React Admin Vite",
+  description: "React Admin Vite docs",
+  locales: {
+    zh: { label: "简体中文", lang: "zh-CN", link: "/zh/" },
+  },
   themeConfig: {
+    logo: "/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "指南", link: "/zh/guide/getting-started" },
+      { text: "指南", link: "/zh/guide/introduction" },
       { text: "参考", link: "/zh/reference/site-config" },
     ],
 
@@ -16,8 +20,31 @@ export default defineConfig({
         {
           text: "简介",
           items: [
+            { text: "介绍", link: "/zh/guide/introduction" },
             { text: "快速开始", link: "/zh/guide/getting-started" },
-            { text: "部署", link: "/zh/guide/deploy" },
+            // { text: "新手需知", link: "/zh/guide/getting-started" },
+          ],
+        },
+        {
+          text: "基础",
+          items: [
+            { text: "本地开发", link: "/zh/guide/development" },
+            { text: "目录结构", link: "/zh/guide/folder" },
+            { text: "路由和菜单", link: "/zh/guide/route" },
+            { text: "样式", link: "/zh/guide/styles" },
+            { text: "图标", link: "/zh/guide/icons" },
+            { text: "网络请求", link: "/zh/guide/request" },
+            { text: "配置与主题", link: "/zh/guide/settings" },
+            { text: "构建与部署", link: "/zh/guide/deploy" },
+          ],
+        },
+        {
+          text: "进阶",
+          items: [
+            { text: "权限", link: "/zh/guide/access" },
+            { text: "工程规范", link: "/zh/guide/standard" },
+            { text: "检查更新", link: "/zh/guide/check-updates" },
+            { text: "常见问题", link: "/zh/guide/faq" },
           ],
         },
       ],
@@ -32,5 +59,30 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+
+    search: {
+      provider: "local",
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: "搜索文档",
+                buttonAriaLabel: "搜索文档",
+              },
+              modal: {
+                noResultsText: "无法找到相关结果",
+                resetButtonTitle: "清除查询条件",
+                footer: {
+                  selectText: "选择",
+                  navigateText: "切换",
+                  closeText: "关闭",
+                },
+              },
+            },
+          },
+        },
+      },
+    },
   },
 });
