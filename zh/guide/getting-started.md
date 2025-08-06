@@ -30,7 +30,7 @@ pnpm -v
 ::: code-group
 
 ```sh [GitHub]
-npx degit liangjiayu/react-admin-vite react-admin-vite
+npx tiged liangjiayu/react-admin-vite react-admin-vite
 ```
 
 :::
