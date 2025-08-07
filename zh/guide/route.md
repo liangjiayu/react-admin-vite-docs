@@ -84,7 +84,7 @@ export default function Home() {
 
 ### 验证
 
-到这里页面已添加完成，访问 http://localhost:5555/home 出现对应的页面即可。
+到这里页面已添加完成，访问 `http://localhost:5555/home` 出现对应的页面即可。
 
 ## 路由配置
 
