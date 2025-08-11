@@ -18,7 +18,10 @@ export default defineConfig({
         text: "演示",
         items: [
           { text: "基础版本", link: "http://8.134.97.57:7400/" },
-          { text: "演示版本", link: "https://react-admin-vite-mtrzw6h4z-liangjiayus-projects.vercel.app/" },
+          {
+            text: "演示版本",
+            link: "https://react-admin-vite-mtrzw6h4z-liangjiayus-projects.vercel.app/",
+          },
         ],
       },
     ],
@@ -50,6 +53,7 @@ export default defineConfig({
           text: "进阶",
           items: [
             { text: "权限", link: "/zh/guide/access" },
+            { text: "状态管理", link: "/zh/guide/state-manage" },
             { text: "工程规范", link: "/zh/guide/standard" },
             { text: "检查更新", link: "/zh/guide/check-updates" },
             { text: "常见问题", link: "/zh/guide/faq" },
