@@ -52,7 +52,7 @@ export default defineConfig({
         {
           text: "进阶",
           items: [
-            { text: "权限", link: "/zh/guide/access" },
+            { text: "权限管理", link: "/zh/guide/access" },
             { text: "状态管理", link: "/zh/guide/state-manage" },
             { text: "工程规范", link: "/zh/guide/standard" },
             { text: "检查更新", link: "/zh/guide/check-updates" },
