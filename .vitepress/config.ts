@@ -56,7 +56,6 @@ export default defineConfig({
             { text: "状态管理", link: "/zh/guide/state-manage" },
             { text: "工程规范", link: "/zh/guide/standard" },
             { text: "检查更新", link: "/zh/guide/check-updates" },
-            { text: "常见问题", link: "/zh/guide/faq" },
           ],
         },
       ],

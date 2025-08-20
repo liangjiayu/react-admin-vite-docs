@@ -187,4 +187,4 @@ export async function updateSysArticle(
 
 最终你会获取一份高质量的 CRUD 代码，并且可以在此基础上进行扩展，以下是效果图：
 
-![示例页面](/development-image01.png)
+![示例页面](/development.png)

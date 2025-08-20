@@ -172,3 +172,16 @@ const Settings: ProLayoutProps = {
 ```tsx
 <div className="bg-primary rounded-primary" />
 ```
+
+## 偏好设置
+
+项目的偏好设置位于 `config/preferences`，你可以根据需求修改配置。
+
+```ts
+export default {
+  /** 是否开启检查更新 */
+  enableCheckUpdates: true,
+  /** 检查更新轮询时间，单位为分钟 */
+  checkUpdatesInterval: 15,
+};
+```
