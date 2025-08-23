@@ -33,7 +33,7 @@ pnpm run build
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://8.134.97.57:7100/api/:path*"
+      "destination": "http://fast-api.liangjiayu.cn/api/:path*"
     },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
@@ -67,7 +67,7 @@ server {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         # 代理接口地址
-        proxy_pass http://8.134.97.57:7100;
+        proxy_pass http://fast-api.liangjiayu.cn;
         add_header Access-Control-Allow-Origin *;
     }
 }
