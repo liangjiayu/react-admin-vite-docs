@@ -49,8 +49,6 @@ npm 脚本是项目常见的配置，用于执行一些常见的任务，比如�
     "check": "biome check .",
     // 自动修复代码
     "check:fix": "biome check --write .",
-    // 使用 prettier 格式化代码
-    "prettier": "prettier -c --write . --cache",
     // 预览打包后的项目
     "preview": "vite preview",
     // git-hook初始化

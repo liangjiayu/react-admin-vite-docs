@@ -53,7 +53,7 @@ nginx 作为最流行的 web 容器之一，配置和使用相当简单，只要
 
 ```nginx
 server {
-    listen 5110;
+    listen 5310;
     server_name  localhost;
 
     # 静态文件存放路径
