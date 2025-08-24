@@ -14,7 +14,7 @@ hero:
       link: /zh/guide/getting-started
     - theme: alt
       text: 在线预览
-      link: http://admin.liangjiayu.cn/
+      link: https://admin.liangjiayu.cn/
     - theme: alt
       text: 在 GitHub 查看
       link: https://github.com/liangjiayu/react-admin-vite

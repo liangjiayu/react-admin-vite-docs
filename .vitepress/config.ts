@@ -16,7 +16,7 @@ export default defineConfig({
       {
         text: "演示",
         items: [
-          { text: "基础版本", link: "http://admin.liangjiayu.cn/" },
+          { text: "基础版本", link: "https://admin.liangjiayu.cn/" },
           {
             text: "演示版本",
             link: "https://react-admin-vite-mtrzw6h4z-liangjiayus-projects.vercel.app/",
